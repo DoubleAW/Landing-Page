@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.header {
+    display: flex;
+    background: gray;
+    justify-content: space-around;
+    margin: 0;
+}
+h3 {
+    margin: 0%;
+    display: inline;
+}
+
+ul {
+    display:inline;
+    margin: 0%;
+    text-align: right;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+    padding: 10px;
+}
