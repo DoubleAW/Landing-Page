@@ -2,24 +2,59 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin: 0;
+    padding: 0;
 }
 
 .first{
     display: flex;
     flex-direction: column;
-    
+    background-color: rgb(31, 41, 55);
 
 }
 
 .header {
     display: flex;
-    background: gray;
     justify-content: space-around;
-    margin: 0;
+    margin-bottom: 20px;
+    margin: 25px;
+
 }
+
+p {
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.info-title {
+    font-size: 50px;
+}
+
+.first-main{
+    display: flex;
+    justify-content: space-around;
+    margin: 50 auto;
+
+}
+
+.site-info {
+    width: 40%;
+    height: 60%;
+}
+
+#tree {
+    width: 45%;
+    height: 45%;
+    margin-top: 20px;
+}
+
 h3 {
     margin: 0%;
     display: inline;
+    color: white;
 }
 
 ul {
@@ -32,4 +67,5 @@ li{
     display: inline;
     list-style-type: none;
     padding: 10px;
+    color: white;
 }
