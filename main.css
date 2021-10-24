@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(31, 41, 55);
+    margin: 0 auto;
 
 }
 
@@ -21,7 +22,7 @@ body {
 
 }
 
-p {
+.first-info {
     color: white;
 }
 
@@ -47,7 +48,7 @@ h1 {
 
 #tree {
     width: 45%;
-    height: 45%;
+    height: 46%;
     margin-top: 20px;
 }
 
@@ -68,4 +69,75 @@ li{
     list-style-type: none;
     padding: 10px;
     color: white;
+}
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.testimony {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
+
+.second-tree {
+    width: 100px;
+    height: 100px;
+}
+
+.rand-info {
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 0%;
+}
+
+.image {
+    border-radius: 25px;
+    background: url(images/tree-736885__480.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    width: 200px;
+    height: 150px;
+  }
+
+.third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e5e7eb; 
+    align-items: center;
+
+
+}
+
+.testimony-box{
+    width: 800;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+.third h2{
+    margin-top: 0%;
+    padding-top: 0;
+    padding-left: 500px;
 }
